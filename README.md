@@ -1,0 +1,1 @@
+#STORE MANAGER-Web-Based App Solution to improve and help store owners manage sales and product Inventory records

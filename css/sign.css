@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    background-image:linear-gradient(to right, rgba(17, 17, 17, 0.9), rgba(14, 14, 14, 0.439)) ,  url("../images/logo store.PNG");
+    text-align: center;
+    /* display: block; */
+    color: white;
+    background-size: cover;
+} 
+
+.here{
+    /* float: left; */
+    width:40%;
+    display:block;
+    background-color:rgba(17, 17, 17, 0.9);
+    color:white; 
+     margin-top: 50px; 
+    margin-left:30%;
+}
+
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} 
+
+
+span.psw {
+   
+    padding-top: 16px;
+}
+
+ 
+    span.psw {
+       display: block;
+       float: none;
+    }
+
+.log{
+display: block;
+float: right;
+width:40%;
+display:block;
+background-color:rgba(17, 17, 17, 0.9);
+color:white; 
+margin-top: 50px; 
+margin-right: 2%;
+}   
+.reg{
+    float:left;
+    margin-right: 2%;
+}

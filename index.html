@@ -2,257 +2,47 @@
 <html>
 
 <head>
-    <title>Store Manager</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css" />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/login.css" />
 </head>
+</header>
+<section>
 
-<body>
-    <div class="body">
-        <header>
-            <div class="header">
-                <div class="button">
-                    <a href="../Store-Manger/templates/attendant.html" class="btn active">SALES</a>
-                    <a href="../Store-Manger/templates/inventory.html" class="btn active">INVENTORY</a>
-                    <a href="../Store-Manger/templates/register.html" class="btn active">REGISTER ATTENDANT</a>
-                    <a href="#" class="btn active">LOG OUT</a>
-    </div>
+    <body>
+
+        <br><br><br>
+        <h1>STORE MANAGER</h1>
+
+
+        <div class="here">
+            <br><br>
+            <h4>LOGIN TO STORE MANAGER</h4>
+
+            <div class="container">
+                <!-- <div class="button"></div> -->
+                <br>
+                <form>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="" required="">
+
+                    <br><label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="" required="">
+
+
+                    <div class="button">
+                        <a href="templates/admin.html" class="btn active">Login</a>
+                    </div>
             </div>
-                </div>    
-        </header>
-    <div class="search">
-        <form class="searchi" action="#t">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa fa-search"></i></button>
-    
-    <div class="section">
-    <section>
-        <table>
-        <div class="top">
-            <tr>
-                <th>Sales Made</th>
-                <th>Quantity</th>
-                <th>Price</th>
-                <th>Filter by</th>
-                <th>Modify</th>
-            </tr>
-            
-<tr>
-<td>Fabric softner</td>
-<td>15Litres</td>
-<td>$12.00@</td>
-<th>
-    <select name="Default">
-        <option value="Default">Store Attendant</option>
-        <option value="jelly cornel">jelly cornel</option>
-        <option value="Racheal Nam">Racheal Nam</option>
-        <option value="Ritah Kemi ">Ritah Kemi</option>
-        <option value="Tom Boyer">Tom Boyer</option>
-    </select>
-</td>
-        <div class="cat">
-            <button class="add button" type="submit">Add</button>
-            <button class="add button" type="submit">Edit</button>
-            <button class="add button" type="submit">Delete</button>
-        </td>
-    </th>
-    </tr>
-    <tr>
-        <td>Wine</td>
-        <td> 500 bottles</td>
-        <td>$20.00@</td>
-        <th>
-            <select name="Default">
-            <option value="Default">Store Attendant</option>
-            <option value="jelly cornel">jelly cornel</option>
-            <option value="Racheal Nam">Racheal Nam</option>
-            <option value="Ritah Kemi ">Ritah Kemi</option>
-            <option value="Tom Boyer">Tom Boyer</option>
-            </select>
-        </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                </td>
-            </tr>
-        </th>
-        <tr>
-            <td>Computers</td>
-            <td>50</td>
-            <td>$500.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Books</td>
-            <td>300 </td>
-            <td>$10.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Bread </td>
-            <td>400</td>
-            <td>$5.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Shoes</td>
-            <td>15 pairs</td>
-            <td>$30.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Fridge</td>
-            <td>80</td>
-            <td>$250.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Laundry detergent</td>
-            <td>900 buckets</td>
-            <td>$18.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Phones</td>
-            <td>50</td>
-            <td>$200.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-        <tr>
-            <td>Paper glooves</td>
-            <td>2 cartons</td>
-            <td>$12.00@</td>
-            <th>
-                <select name="Default">
-                    <option value="Default">Store Attendant</option>
-                    <option value="jelly cornel">jelly cornel</option>
-                    <option value="Racheal Nam">Racheal Nam</option>
-                    <option value="Ritah Kemi ">Ritah Kemi</option>
-                    <option value="Tom Boyer">Tom Boyer</option>
-                </select>
-                </td>
-                <div class="cat">
-                    <button class="add button" type="submit">Add</button>
-                    <button class="add button" type="submit">Edit</button>
-                    <button class="add button" type="submit">Delete</button>
-                    </td>
-        </tr>
-        </th>
-    </table>
-</section>
-</div>
-</body>
-
-
-    <br><br><footer class="footer">
-        <!-- <div class="footerContainer"> -->
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <p class="copyright">© copyright 2018 Store Manager</p>
         </div>
-    </footer> 
+        </form>
+        <!-- <div class="container"> -->
 
 
+        </div>
+        </div>
+        </div>
+</section>
+</form>
+</body>
 
 </html>

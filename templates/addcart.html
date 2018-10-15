@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Store Manager</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+
+</head>
+
+<!-- <body> -->
+    <!-- <h1>STORE MANAGER</h1> -->
+    <!-- </body> -->
+    <header>
+        <div class="header">
+            <div class="button">
+                <a href="#" class="btin active">SALES</a>
+                <a href="#" class="btin active">INVENTORY</a>
+                <a href="#" class="btin active">LOG OUT</a>
+            </div>
+        </div>
+        <section class="search-formati">
+            <form action="" method="GET" name="search" role="search">
+                <p class="inp-wrap search-wrap">
+                    <label for="search-field" class="search-label grid-25">Find</label>
+                    <input type="search" name="search-term" id="search-field" class="grid-75" placeholder="a product" /></p>
+                <p class="inp-wrap cat-wrap">
+                    <label for="categories" class="grid-20">in</label>
+                    <select name="search categories" id="categories" class="grid-80">
+                        <option value="categories" selected>categories</option>
+                        <option value="Food and Beverages" selected>Food and Beverages</option>
+                        <option value="Gifts, sports and toys">Gifts, sports and toys</option>
+                        <option value="Textile and accessories">Textile and accessories</option>
+                        <option value="Health and Beauty">Health and Beauty</option>
+                        <option value="Bags,shops and accessories">Bags,shops and accessories</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Packaging, advertising and office">Packaging, advertising and office</option>
+                    </select>
+                </p>
+                <p class="inp-wrap submit-wrap">
+                    <button class="grid-100 btn">
+                        <span class="search-icon-container">
+                        </span>
+                        Search
+                    </button>
+                </p>
+            </form>
+        </section>
+        </header>
+        
+        <body>
+
+<script src="simpleCart.js"></script>
+<div class="sectioniy">
+<section>
+<table>
+    <tr>
+        <th>Inventory</th>
+        <th>Quantity</th>
+        <th>Price</th>
+       
+
+    </tr>
+    <tr>
+        <td>Laundry Detergent</td>
+        <td>5</td>
+        <td>$10.00</td>
+    </tr>
+
+    <tr>
+        <td>Watch</td>
+        <td>1</td>
+        <td>$30.00</td>
+    </tr>
+    
+    <tr>
+        <td>Paper Towels</td>
+        <td>10</td>
+        <td>$15.00</td>
+    </tr>
+    
+    <tr>
+        <td>Wine</td>
+        <td>2</td>
+        <td>$20.00</td>
+    </tr>
+
+</table>
+</section>
+</th>
+</div>
+<div class="body">
+    <div class="sectioni">
+        <div class="billing">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Namaara Racheal">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Racheal@gamil.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Kampala">
+            <br><br><label for="contact"><i class="fa fa-address-card-o"></i> Contact</label>
+            <input type="number" id="adr" name="address" placeholder="077453627">
+            <br><br><h3>Payment mode</h3>
+            <input type="checkbox" checked="checked" name="remember"> cash
+            <input type="checkbox" checked="checked" name="remember"> Mobile Money
+            <input type="checkbox" checked="checked" name="remember"> Account No.
+                        </div>
+                    </div>
+                </div></sectioni>
+            
+
+            
+<div class="update">
+<br><input type="submit" value="Add to cart">
+<input type="submit" value="Update cart">
+<input type="submit" value="Empty cart">
+<input type="submit" value="continue shopping">
+<input type="submit" value="go to checkout">
+
+
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <a>Privacy Policy</a>
+        <a>Terms of Service</a>
+        <p class="copyright">© copyright 2018 Store Manager</p>
+    </div>
+</footer>
+
+
+
+</html>

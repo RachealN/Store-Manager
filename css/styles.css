@@ -11,7 +11,7 @@
     display:block;
     background-color:rgba(168, 162, 162, 0.295);
     color:white; 
-     margin-top: 45px; 
+     margin-top: 5%; 
     margin-right: 2%;
     margin-left: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@ body{
    background-image:linear-gradient(to right, rgba(17, 17, 17, 0.9), rgba(14, 14, 14, 0.439)) ,  url("../images/cart.PNG");
     color:white;
     background-size: cover;
-    font-size: 120%;
+    font-size: 120%;   
 }
 
 
@@ -271,6 +271,24 @@ select {
   /* fill: #fff; */
 }
 
+.button{
+    background-color:gray;
+    cursor:pointer;
+    width:20%;
+    border-radius:5px;
+    margin-left: 10%;
+    margin-top: 5%;
+    height:40px;
+    
+
+}
+.button a{
+    text-decoration: none;
+    color:white;
+    font-size: 150%; 
+
+}
+
 .btn:hover #search-icon,
 .btn:focus #search-icon {
   fill: #232323;
@@ -343,17 +361,12 @@ select {
 }
 
 .attend{
-    /* float:right; */
-    margin-left: 120%;
-    margin-top:1%;
+    margin-left: 90%;
+    margin-top:0%;
 }
-/* .add{
-    float: right;
-    margin-left: 200%;
-} */
+
 
 .sectiony{
-    /* float: none; */
     width:80%;
     display:block;
     background-color:rgba(168, 162, 162, 0.295);
@@ -366,7 +379,7 @@ select {
 }
 .buttoned{
     float:right;
-    /* margin-top: 0%; */
+    
 
 }
 
@@ -396,9 +409,15 @@ select {
 }
 .headeryy{
     margin-top: 1%;
-    margin-left: 50%;
+    margin-left: 40%;
     
 }
+.headerxx{
+    margin-top: 2%;
+    margin-left: 60%;
+}
+
+
 .search-formati{
     margin-top:5%;
     margin-left:5%;
@@ -414,4 +433,51 @@ select {
     margin-right: 2%;
     margin-left: 5%;
     font-family: Arial, Helvetica, sans-serif;  
+}
+@media screen and (max-width:800px) and (min-width:200px){
+.search-form{
+    width:70%;
+    font-size: 10px;
+    padding: 8px 10;
+    height:200px;
+
+}
+.button{
+    width:70%;
+    font-size: 10px;
+    padding: 8px 10;
+    height:200px;
+}
+.section{
+    width:70%;
+    font-size: 10px;
+    padding: 8px 10;
+    height:200px;
+}
+
+}
+
+@media screen and (max-width:800px) and (min-width:200px){
+.search-formu{
+    width:70%;
+    font-size: 10px;
+    padding: 8px 10;
+    height:200px;
+
+}
+.headeryy{
+    /* width:70%;
+    font-size: 10px;
+    padding: 8px 10;
+    height:200px;  */
+    margin-left: 20%;
+   
+}
+.sectionz{
+    width:70%;
+    font-size: 10px;
+    padding: 8px 10;
+    height:200px;
+}
+
 }

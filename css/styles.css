@@ -335,16 +335,21 @@ select {
     margin-top: 2%;
 }
 .update{
-    text-align: right;
-    margin-right: 5%;
-    padding:2px 3px;
-    font-size: 10%;
-}
+    background-color:gray;
+    cursor:pointer;
+    border-radius:5px;
+    margin-left: 10%;
+    margin-top: 1%;
+    height:30px;
+    font-size: 15px;
+    color: white;
+   
+    }
+
 
 .billing{
     margin-left: 1%;
-     margin-top: 3%; 
-    text-align: left;
+    margin-top: 3%; 
 } 
 
 .sectioni{

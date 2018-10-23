@@ -3,10 +3,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
-    background-image:linear-gradient(to right, rgba(17, 17, 17, 0.9), rgba(14, 14, 14, 0.439)) ,  url("../images/logo store.PNG");
+    background-image:linear-gradient(to right, rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.439)) ,  url("../images/logo store.PNG");
     text-align: center;
     /* display: block; */
-    color: white;
+    color: black;
     background-size: cover;
 } 
 
@@ -14,11 +14,13 @@ body {
     /* float: left; */
     width:40%;
     display:block;
-    background-color:rgba(17, 17, 17, 0.9);
+    /* background-color:rgba(8, 8, 8, 0.4); */
+    background-color: teal;
+
     color:white; 
      margin-top: 50px; 
     margin-left:30%;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 
@@ -31,7 +33,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 } 
 .button{
-    background-color:gray;
+    background-color:teal;
     cursor:pointer;
     width:20%;
     border-radius:5px;

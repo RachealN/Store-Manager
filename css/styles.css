@@ -9,7 +9,8 @@
     float: none;
     width:170%;
     display:block;
-    background-color:rgba(168, 162, 162, 0.295);
+    background-color: teal;
+    /* background-color:rgba(4, 4, 4, 0.2); */
     color:white; 
      margin-top: 5%; 
     margin-right: 2%;
@@ -18,7 +19,7 @@
 }
 
 body{
-   background-image:linear-gradient(to right, rgba(17, 17, 17, 0.9), rgba(14, 14, 14, 0.439)) ,  url("../images/cart.PNG");
+   background-image:linear-gradient(to right, rgba(7, 7, 7, 0.4), rgba(0, 0, 0, 0.0)) ,  url("../images/cart.PNG");
     color:white;
     background-size: cover;
     font-size: 120%;   
@@ -272,13 +273,14 @@ select {
 }
 
 .button{
-    background-color:gray;
+    background-color:teal;
     cursor:pointer;
     width:20%;
     border-radius:5px;
     margin-left: 10%;
     margin-top: 5%;
     height:40px;
+    color: white;
     
 
 }
@@ -335,7 +337,7 @@ select {
     margin-top: 2%;
 }
 .update{
-    background-color:gray;
+    background-color:teal;
     cursor:pointer;
     border-radius:5px;
     margin-left: 10%;
@@ -356,7 +358,8 @@ select {
     float: none;
     width:90%;
     display:block;
-    background-color:rgba(168, 162, 162, 0.295);
+    background-color: teal;
+    /* background-color:rgba(4, 4, 4, 0.2); */
     color:white; 
      margin-top: 30px; 
     margin-right: 2%;
@@ -374,7 +377,7 @@ select {
 .sectiony{
     width:80%;
     display:block;
-    background-color:rgba(168, 162, 162, 0.295);
+    background-color:rgba(4, 4, 4, 0.4);
     color:white; 
     margin-top: 240px; 
     margin-right: 10%;
@@ -400,7 +403,8 @@ select {
   float: none;
     width:90%;
     display:block;
-    background-color:rgba(168, 162, 162, 0.295);
+    /* background-color:rgba(4, 4, 4, 0.2); */
+    background-color: teal;
     color:white; 
      margin-top: 30px; 
     margin-right: 2%;
@@ -432,7 +436,8 @@ select {
     float: none;
     width:90%;
     display:block;
-    background-color:rgba(168, 162, 162, 0.295);
+    /* background-color:rgba(168, 162, 162, 0.295); */
+    background-color: teal;
     color:white; 
      margin-top: 30px; 
     margin-right: 2%;
